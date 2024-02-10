@@ -85,6 +85,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 .nav__logo {
   display: inline-flex;
@@ -103,8 +104,9 @@ a {
   align-items: center;
   flex-direction: row;
   height: var(--header-height);
-  column-gap: 20px;
+  column-gap: 15px;
   white-space: nowrap;
+  margin-right: 15px;
 }
 
 .nav_logo_btn_row{
