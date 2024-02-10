@@ -100,24 +100,25 @@ a {
 .nav__logo-container {
   display: flex;
   justify-content:center;
-
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   height: var(--header-height);
-
+  column-gap: 20px;
+  white-space: nowrap;
 }
 
 .nav_logo_btn_row{
   display: flex;
   justify-content:center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   column-gap: 15px;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .nav_logo_btn_col{
+  flex-direction: row;
   font-size: var(--smaller-font-size);
   background-color: #512da8;
   border: none;
