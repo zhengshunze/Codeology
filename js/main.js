@@ -64,7 +64,7 @@ const mediaQuery = matchMedia('(min-width: 1118px)'),
 const removeStyle = () =>{
 
     // Validate if the media logo query reaches 1118px
-    if(!mediaQuery_logo.matches){
+    if(mediaQuery_logo.matches){
         nav__logo_container.classList.add("nav_logo_btn_row")
     }
     else{
